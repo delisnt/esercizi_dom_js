@@ -18,10 +18,13 @@
         const body = html.children[2]
         const ul = body.children[0]
         const parentUl = ul.parentElement
+        console.log(parentUl)
         const secondUlChild = ul.children[1]
-        const previousChild = ul.previousElementSibling
-        const nextChild = ul.nextElementSibling
+        console.log(secondUlChild);
+        const previousChild = secondUlChild.previousElementSibling
+        console.log(previousChild);
+        const nextChild = secondUlChild.nextElementSibling
+        console.log(nextChild);
     </script>
 </body>
-
 </html>
