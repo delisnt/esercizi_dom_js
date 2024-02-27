@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 219, 219);
+}
+
+
+
+.container {
+    padding: 10px;
+    background-image: url(https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?size=626&ext=jpg);
+    border: 2pxcdq solid rgb(15, 15, 15);
+    border-radius: 10px;
+}
+
+.container ul {
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    height: 1em;
+}
+
+button {
+    background-color: inherit;
+    border: none;
+    padding: 2px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
