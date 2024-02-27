@@ -3,6 +3,9 @@ const addProduct = () => {
   const ul = document.querySelector("ul")
   const task = document.createElement("li")
   const checkbox = document.createElement("input")
+  if (input === ""){
+    return;
+  }
   checkbox.setAttribute("type", "checkbox")
   task.textContent = input
   ul.appendChild(task)
